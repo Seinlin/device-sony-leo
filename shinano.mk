@@ -80,3 +80,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=480 \
     ro.usb.pid_suffix=1BA
+
+PRODUCT_COPY_FILES += \
+    device/sony/leo/qpnp_pon.kl:system/usr/keylayout/qpnp_pon.kl \
+    device/sony/leo/volume.cfg:system/etc/volume.cfg
